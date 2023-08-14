@@ -9,11 +9,7 @@ const TaskList = () => {
 
   return (
     <>
-      <p>
-        User:
-        eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-        {user}
-      </p>
+      <p>User: {user}</p>
       <button
         onClick={() =>
           dispatch({
